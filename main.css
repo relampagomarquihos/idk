@@ -1,16 +1,53 @@
-
 p {
     font-size: x-large;
 }
+
 h1 {
-    text-align: center; font-size: xx-large; color: yellow;
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
 }
 
-.idk{
-    text-align: center; font-size: x-large;
+.idk {
+    text-align: center;
+    font-size: x-large;
 }
 
-#idk-2{
-font-size: medium; text-align: left; 
+#idk-2 {
+    font-size: medium;
+    text-align: left;
 }
 
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.flex-item {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: x-large;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.coluna-container {
+    width: 40%;
+}
+
+.linha {
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.coluna {
+    float: left;
+    flex-direction: column;
+
+
+}
